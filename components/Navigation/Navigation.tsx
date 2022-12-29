@@ -13,7 +13,7 @@ const links = [
 ];
 
 const Navigation = () => (
-  <nav>
+  <nav className="text-red">
     {links.map((listItem) => (
       <Link href={listItem.link} key={listItem.name}>{listItem.name}</Link>
     ))}
